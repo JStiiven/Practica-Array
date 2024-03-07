@@ -24,3 +24,12 @@ console.log(arraySecuenciaNumerica);
 let arrayRepeticion = ['banana', 'manzana', 'naranja'];
 arrayRepeticion.fill('fresa')
 console.log(arrayRepeticion);
+
+// Se debe crear un array a partir de una cadena de texto usando el metodo String.split()
+let arrayString = "Este es mi taller evaluativo";
+let str = arrayString.split(' ')
+console.log(str);
+let str2 = arrayString.split('')
+console.log(str2);
+let str3 = arrayString.split()
+console.log(str3);
