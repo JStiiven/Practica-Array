@@ -80,3 +80,12 @@ let fechaGraduacion = [30, 12, 2025]
 console.log(fechaGraduacion);
 let eliminarElementoInicio = fechaGraduacion.shift(fechaGraduacion)
 console.log(fechaGraduacion);
+
+// Obtener una porción del array usando slice()
+let razaPerros = ['Boxer', 'Bulldog', 'Bulldog francés', 'Bull terrier'];
+let porcionArray = razaPerros.slice(0)
+console.log(porcionArray);
+let porcionArray2 = razaPerros.slice(1)
+console.log(porcionArray2);
+let porcionArray3 = razaPerros.slice(2)
+console.log(porcionArray3);
