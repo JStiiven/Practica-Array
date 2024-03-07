@@ -98,3 +98,8 @@ let converArrayString2 = valoresAcambiar.join('-')
 console.log(converArrayString2);
 let converArrayString3 = valoresAcambiar.join(' ')
 console.log(converArrayString3);
+
+// Obtener una subsección del array desde un índice negativo usando slice()
+let cadenaTexto = "Hoy se acaba el plazo de entrega del taller evaluativo"
+let obtenerTextoArray = cadenaTexto.slice(3, -2)
+console.log(obtenerTextoArray);
