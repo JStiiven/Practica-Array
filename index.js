@@ -53,3 +53,9 @@ console.log(arrayGenerador);
 // Se debe crear un array para obtener a longitud
 let arrayLongitud = [30, 12, 2004]
 console.log(arrayLongitud.length);
+
+// Agregar elementos al final del array usando push();
+let frutas = ['banano', 'manzana', 'pera']
+console.log(frutas);
+let arrayPush =  frutas.push('fresa');
+console.log(frutas);
