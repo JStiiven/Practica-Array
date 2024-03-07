@@ -59,3 +59,9 @@ let frutas = ['banano', 'manzana', 'pera']
 console.log(frutas);
 let arrayPush =  frutas.push('fresa');
 console.log(frutas);
+
+// Eliminar el ultimo elemento del array usando pop()
+let numeros = [16, 3, 2006];
+console.log(numeros);
+let eliminarArray = numeros.pop()
+console.log(numeros);
