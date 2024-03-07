@@ -44,3 +44,8 @@ console.log(arrayCopia);
 let arrayUnico = ['d','b','c','a','d'];
 let arrayDublicado = [...new Set(arrayUnico)]
 console.log(arrayDublicado);
+
+// Se debe crear un array con una función que genere valores dinamicamente
+let longitud = 3;
+let arrayGenerador = Array.from({ length: longitud }, () => Math.floor(Math.random() * 100));
+console.log(arrayGenerador);
