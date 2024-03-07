@@ -89,3 +89,12 @@ let porcionArray2 = razaPerros.slice(1)
 console.log(porcionArray2);
 let porcionArray3 = razaPerros.slice(2)
 console.log(porcionArray3);
+
+// Convertir un array en un string usando join()
+let valoresAcambiar = ['Me llamo', 'John Stiven Ortega', 'y estoy cursando', 'un tecnologo en el SENA']
+let converArrayString = valoresAcambiar.join()
+console.log(converArrayString);
+let converArrayString2 = valoresAcambiar.join('-')
+console.log(converArrayString2);
+let converArrayString3 = valoresAcambiar.join(' ')
+console.log(converArrayString3);
