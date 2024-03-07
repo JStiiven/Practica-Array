@@ -101,5 +101,12 @@ console.log(converArrayString3);
 
 // Obtener una subsección del array desde un índice negativo usando slice()
 let cadenaTexto = "Hoy se acaba el plazo de entrega del taller evaluativo"
-let obtenerTextoArray = cadenaTexto.slice(3, -2)
+let obtenerTextoArray = cadenaTexto.slice(0, -2)
 console.log(obtenerTextoArray);
+
+// Eliminar una porción del array sin modificar el original usando slice()
+let numeroS = [1, 2, 3, 4, 5, 6];
+let copiaNumeroS = numeroS.slice()
+let  eliminarPorcionNumero = copiaNumeroS.slice(1, 3)
+console.log(eliminarPorcionNumero);
+console.log(numeroS);
