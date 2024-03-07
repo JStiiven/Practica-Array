@@ -110,3 +110,9 @@ let copiaNumeroS = numeroS.slice()
 let  eliminarPorcionNumero = copiaNumeroS.slice(1, 3)
 console.log(eliminarPorcionNumero);
 console.log(numeroS);
+
+// Agregar múltiples elementos al principio del array usando unshift() con spread operator (...)
+let numbers = [1, 3, 5]
+let agg = [2, 4]
+numbers.unshift(...agg)
+console.log(numbers);
