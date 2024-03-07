@@ -39,3 +39,8 @@ let numerosArray = [1, 2, 3, 4, 5];
 console.log(numerosArray);
 let arrayCopia = [...numerosArray];
 console.log(arrayCopia);
+
+// Se debe crear un array con valores unicos utilizando el metodo Set() y el operador spread(...)
+let arrayUnico = ['d','b','c','a','d'];
+let arrayDublicado = [...new Set(arrayUnico)]
+console.log(arrayDublicado);
