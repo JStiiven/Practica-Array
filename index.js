@@ -49,3 +49,7 @@ console.log(arrayDublicado);
 let longitud = 3;
 let arrayGenerador = Array.from({ length: longitud }, () => Math.floor(Math.random() * 100));
 console.log(arrayGenerador);
+
+// Se debe crear un array para obtener a longitud
+let arrayLongitud = [30, 12, 2004]
+console.log(arrayLongitud.length);
