@@ -65,3 +65,9 @@ let numeros = [16, 3, 2006];
 console.log(numeros);
 let eliminarArray = numeros.pop()
 console.log(numeros);
+
+// Agregar elementos al principio del array usando unshift()
+let animales = ['tigre', 'gato', 'perro', 'ave']
+console.log(animales);
+let agregarArrayInicio = animales.unshift('raton')
+console.log(animales);
