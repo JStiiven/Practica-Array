@@ -1,3 +1,4 @@
+// INTRODUCCIÓN A LOS ARRAYS
 // Se debe crear un array vacío
 let arrayVacio = [];
 console.log(arrayVacio);
@@ -50,7 +51,9 @@ let longitud = 3;
 let arrayGenerador = Array.from({ length: longitud }, () => Math.floor(Math.random() * 100));
 console.log(arrayGenerador);
 
+// MÉTODOS BÁSICOS DE ARRAYS
 // Se debe crear un array para obtener a longitud
+
 let arrayLongitud = [30, 12, 2004]
 console.log(arrayLongitud.length);
 
@@ -71,3 +74,9 @@ let animales = ['tigre', 'gato', 'perro', 'ave']
 console.log(animales);
 let agregarArrayInicio = animales.unshift('raton')
 console.log(animales);
+
+// Eliminar el primer elemento del array usando shift()
+let fechaGraduacion = [30, 12, 2025]
+console.log(fechaGraduacion);
+let eliminarElementoInicio = fechaGraduacion.shift(fechaGraduacion)
+console.log(fechaGraduacion);
