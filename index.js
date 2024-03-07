@@ -33,3 +33,9 @@ let str2 = arrayString.split('')
 console.log(str2);
 let str3 = arrayString.split()
 console.log(str3);
+
+// Se debe crear un array combinando dos arrays existentes utilizando el operador spread(...)
+let numerosArray = [1, 2, 3, 4, 5];
+console.log(numerosArray);
+let arrayCopia = [...numerosArray];
+console.log(arrayCopia);
